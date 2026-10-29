@@ -16,7 +16,7 @@ This project generates several candidate interpretations for a sentence, scores 
 
 - `TreeOfThoughts.py` — core Tree-of-Thoughts implementation
 - `main.py` — example runner showing how to execute the framework on sample sentences
-- `crane` — auxiliary file present in the repository
+- `crane` — evaluation file
 
 ## Requirements
 
@@ -77,7 +77,3 @@ results = tot.run_tot(
 - This project is intended for experimentation and research around ambiguity handling in language models.
 - Model performance depends on the quality and speed of the local Ollama installation.
 - The evaluation prompt expects a JSON response with a numeric score and a justification.
-
-## License
-
-This repository does not currently include a license file. If you plan to share or publish the project, consider adding one such as MIT or Apache-2.0.
